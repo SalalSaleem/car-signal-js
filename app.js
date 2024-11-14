@@ -1,5 +1,10 @@
 var engineStart = document.getElementById("engineStart")
 var carmoving = document.getElementById("carmoving")
+var hornSound = document.getElementById("hornSound")
+
+function horn(){
+    hornSound.play();
+}
 
 function lights(param) {
      if (param == "circle3") {

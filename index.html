@@ -18,8 +18,9 @@
         <div onclick="lights('circle2')" id="circle2"></div>
         <div onclick="lights('circle3')" id="circle3"></div>
     </div>
-    <div id="horn">
-        <img src="/assets/horn.png" alt="horn">
+    <div onclick="horn()" id="horn">
+        <audio id="hornSound" src="/assets/carhorn.mp3"></audio>
+        <img height="100%" width="100%" src="/assets/horn.png" alt="horn">
     </div>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="app.js"></script>

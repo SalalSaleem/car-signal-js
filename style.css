@@ -65,5 +65,9 @@ img {
 }
 
 #horn{
-    
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    right: 30px;
+    width: 100px;   
 }
